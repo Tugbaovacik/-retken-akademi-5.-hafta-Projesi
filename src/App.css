@@ -1,0 +1,53 @@
+.App {
+    font-family: "Roboto", Arial, sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .app_title {
+    color: #c45a6f;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .sıcaklık{
+  font-weight: bold;
+    font-size: large;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #e01994;
+    color: rgba(255, 255, 255, 0.986);
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: inherit;
+  }
+  
+  .weather-card {
+    width: 550px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    color: rgba(0, 0, 0, 0.952);
+    background-color: #ffffff;
+    margin: 20px auto 0 auto;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+  }
+  .weather-card button {
+    margin-top: 20px;
+  }
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: #a819e0;
+  }
+  span{
+    color: #6f19e0;
+  }
+  
